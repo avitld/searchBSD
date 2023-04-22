@@ -12,8 +12,6 @@
                 $desired_list = $slist;
             }
         }
-        $forum = $desired_list['forum'];
-        $other = $desired_list['other'];
     ?>
     <form class="mini-search-container" method="get" action="search.php">
         <a href="index.php"><img src="img/logo_dark.webp" width="4%"></a>
