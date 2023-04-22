@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(26, 26, 26);
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Noto Sans', 'Noto Serif', Arial, sans-serif;
+    color: white;
+}
+
+::selection{
+    color: white; background-color: rgba(180,0,0);
+}
+
+.search-container {
+    text-align: center;
+    vertical-align: middle;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+.smhr {
+    max-width: 30%;
+}
+
+.search-container img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid darkslategray;
+    background: rgb(36, 36, 36);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: gray;
+    padding-right: 4px;
+    padding-left: 4px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: rgb(150, 150, 150);
+}
+
+input[type=text] {
+    outline: none;
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+    padding: 4px 4px 4px 4px;
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+button[type=submit] {
+    outline: none;
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+    padding: 4px 6px 4px 6px;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+button[type=submit]:hover {
+    border: 2px solid rgb(36, 61, 61);
+    background-color: rgb(29, 29, 29);
+    color: rgb(206, 206, 206);
+}
+
+.mini-search-container {
+    max-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgb(36, 36, 36);
+}
+
+.mini-search-container input[type=text]{
+    max-height: 100px;
+    max-width: 250px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.search-content {
+    padding-left: 20px;
+    font-size: large;
+}
+
+.card {
+    max-width: 500px;
+    border-radius: 5px;
+    border: 2px solid rgb(68, 68, 68);
+    background: rgb(46, 46, 46);
+}
+
+.card h3 {
+    padding-top: 0;
+    margin-top: 2px;
+    padding-left: 10px;
+}
+
+.a-result {
+    padding-left: 15px;
+}
+
+.a-result .title {
+    color: white;
+    text-decoration: none;
+}
+
+.a-result .minilink {
+    color: lightgray;
+    font-size: smaller;
+}
+
+.a-result .description {
+    padding-top: 0;
+    margin-top: 0;
+    color: rgb(170, 228, 255);
+    border-bottom: 1px solid rgba(211, 211, 211, 0.4);
+}
+

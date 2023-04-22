@@ -1,0 +1,109 @@
+[
+    {
+        "type":"openbsd",
+        "forums":[
+            {
+                "url":"https://daemonforums.org",
+                "desc":"BSD Forum"
+            },
+            {
+                "url":"https://reddit.com/r/OpenBSD",
+                "desc":"Reddit OpenBSD Forum"
+            }
+        ],
+        "wiki":[
+            {
+                "url":"https://openbsdhandbook.com",
+                "desc":"OpenBSD Handbook"
+            },
+            {
+                "url":"https://openbsd.org/faq",
+                "desc":"OpenBSD FaQ"
+            },
+			{
+                "url":"https://man.openbsd.org",
+                "desc":"OpenBSD Manual"
+            }
+        ],
+        "other":[
+            {
+                "url":"https://undeadly.org",
+                "desc":"OpenBSD Help Journal"
+            }
+        ]
+    },
+    {
+        "type":"freebsd",
+        "forums":[
+            {
+                "url":"https://forums.freebsd.org",
+                "desc":"FreeBSD Forums"
+            },
+            {
+                "url":"https://unix.stackexchange.com",
+                "desc":"Stackexchange for unix OS"
+            },
+            {
+                "url":"https://daemonforums.org",
+                "desc":"BSD Forum"
+            },
+            {
+                "url":"https://reddit.com/r/FreeBSD",
+                "desc":"Reddit FreeBSD Forum"
+            }
+        ],
+        "wiki":[
+            {
+                "url":"https://wiki.freebsd.org",
+                "desc":"FreeBSD Wiki"
+            },
+            {
+                "url":"https://docs.freebsd.org",
+                "desc":"FreeBSD Documentation"
+            }
+        ],
+        "other":[
+            {
+                "url":"https://freebsd.org/community",
+                "desc":"FreeBSD Community"
+            },
+            {
+                "url":"https://freebsd.org/support",
+                "desc":"FreeBSD Support Page"
+            },
+            {
+                "url":"https://stackoverflow.com",
+                "desc":"Programmer's best friend"
+            }
+        ]
+    },
+    {
+        "type":"netbsd",
+        "forums":[
+            {
+                "url":"https://daemonforums.org",
+                "desc":"BSD Forum"
+            },
+            {
+                "url":"https://reddit.com/r/NetBSD",
+                "desc":"Reddit NetBSD Forum"
+            }
+        ],
+        "wiki":[
+            {
+                "url":"https://wiki.netbsd.org",
+                "desc":"NetBSD Wiki"
+            },
+            {
+                "url":"https://netbsd.org/docs",
+                "desc":"NetBSD Docs"
+            }
+        ],
+        "other":[
+            {
+                "url":"https://netbsd.org/community",
+                "desc":"NetBSD Community"
+            }
+        ]
+    }
+]
