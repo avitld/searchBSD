@@ -17,6 +17,5 @@
 				<input type="radio" name="type" value="netbsd" required />
 			</div>
 		</form>
-	</body>
 
 <?php require "misc/footer.php"; ?>
