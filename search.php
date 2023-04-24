@@ -1,10 +1,12 @@
 <?php require "misc/header.php"; ?>
+<?php require "misc/results.php"; ?>
 
 <body>
     <?php
         $query = $_REQUEST["q"];
         $type = $_REQUEST["type"];
-        $json_data = file_get_contents('misc/lists.json');
+
+        /*$json_data = file_get_contents('misc/lists.json');
         $list = json_decode($json_data, true);
         $desired_list = [];
         foreach ($list as $slist) {
@@ -12,8 +14,9 @@
                 $desired_list = $slist;
             }
         }
-        $forum = $desired_list['forum'];
-        $other = $desired_list['other'];
+        */
+
+        $final_results = get_results($query, $type);
     ?>
     <form class="mini-search-container" method="get" action="search.php">
         <a href="index.php"><img src="img/logo_dark.webp" width="4%"></a>
@@ -34,31 +37,14 @@
     <div class="search-content">
         <p class="explainer">You searched for: <b><?php echo $query; ?></b><br/>Showing results for <b><?php echo $type; ?></b></p>
         <div class="card" id="wiki">
-            <h3>Wiki Results:</h3>
+            <h3>Got Results:</h3>
             <div class="results">
                 <?php
-                    $wiki_urls = [];
-                    foreach ($desired_list['wiki'] as $wiki) {
-                        $urls = is_array($wiki['url']) ? $wiki['url'] : [$wiki['url']];
-                        foreach ($urls as $url) {
-                            
-                        }
-                    }
+                    echo_response($final_results, $type)
                 ?>
             </div>
         </div>
         <br/>
-        <div class="card" id="forums">
-            <h3>Forum Results:</h3>
-            <div class="results">
-            </div>
-        </div>
-        <br/>
-        <div class="card" id="other">
-            <h3>Community Results:</h3>
-            <div class="results">
-            </div>
-        </div>
     </div>
 
 <?php require "misc/footer.php"; ?>
