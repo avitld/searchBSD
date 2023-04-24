@@ -112,6 +112,13 @@ button[type=submit]:hover {
 
 .a-result {
     padding-left: 15px;
+    background-color: rgba(256,256,256,0.1);
+    border: 1px solid rgba(256,256,256,0.3);
+    margin-bottom: 5px;
+    border-radius: 4px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .a-result .title {
@@ -129,6 +136,7 @@ button[type=submit]:hover {
     margin-top: 0;
     color: rgb(170, 228, 255);
     border-bottom: 1px solid rgba(211, 211, 211, 0.4);
+    font-size: small;
 }
 
 .settings {
