@@ -18,7 +18,7 @@
 
         $final_results = get_results($query, $type);
     ?>
-    <form class="mini-search-container" method="get" action="search.php">
+    <form class="mini-search-container" method="get" action="search.php" autocomplete="off">
         <a href="index.php"><img src="img/logo_dark.webp" width="4%"></a>
         <input type="text" name="q" autofocus required value="<?php echo $query?>" />
         <button type="submit">Search</button>
