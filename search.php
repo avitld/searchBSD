@@ -20,22 +20,22 @@
     ?>
     <form class="mini-search-container" method="get" action="search.php" autocomplete="off">
         <a href="index.php"><img src="img/logo_dark.webp" width="4%"></a>
-        <input type="text" name="q" autofocus required value="<?php echo $query?>" />
+        <input type="text" name="q" autofocus required value="<?php echo $query?>">
         <button type="submit">Search</button>
-        <br/>
+        <br>
         <span style="color: white;">|</span>
         <label style="color: red;">FreeBSD</label>
-		<input type="radio" name="type" value="freebsd" required/>
+		<input type="radio" name="type" value="freebsd" required>
         <span style="color: transparent;">|</span>
 		<label style="color: yellow;">OpenBSD</label>
-		<input type="radio" name="type" value="openbsd" required />
+		<input type="radio" name="type" value="openbsd" required>
         <span style="color: transparent;">|</span>
 		<label style="color: orange;">NetBSD</label>
-		<input type="radio" name="type" value="netbsd" required />
+		<input type="radio" name="type" value="netbsd" required>
         <span style="color: white;">|</span>
     </form>
     <div class="search-content">
-        <p class="explainer">You searched for: <b><?php echo $query; ?></b><br/>Showing results for <b><?php echo $type; ?></b></p>
+        <p class="explainer">You searched for: <b><?php echo $query; ?></b><br>Showing results for <b><?php echo $type; ?></b></p>
         <div class="card" id="wiki">
             <h3>Got Results:</h3>
             <div class="results">
@@ -44,7 +44,7 @@
                 ?>
             </div>
         </div>
-        <br/>
+        <br>
     </div>
 
 <?php require "misc/footer.php"; ?>

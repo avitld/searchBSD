@@ -34,9 +34,9 @@
           
               if (strpos(strtolower($title), $type) !== false) {
                 echo "<div class=\"a-result\">";
-                echo "  <a href=\"$link\" class=\"title\">$title</a><br/>";
+                echo "  <a href=\"$link\" class=\"title\">$title</a><br>";
                 echo "  <a href=\"$link\" class=\"minilink\">$link</a>";
-                echo "  <p href=\"$link\" class=\"description\">$description</a>";
+                echo "  <a href=\"$link\" class=\"description\">$description</a>";
                 echo "</div>";
               }
             }
